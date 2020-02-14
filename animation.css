@@ -1,0 +1,20 @@
+/* animation.css */
+
+/* animation code */
+@keyframes example {
+    from {background-color: rebeccapurple;}
+    to {background-color: green; left:50px;}
+}
+
+/* bind animation to element */
+div {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: rebeccapurple;
+    animation-name: example;
+    animation-delay: 2s;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    -moz-animation-timing-function: ease-in;
+}
